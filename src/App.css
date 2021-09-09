@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+/* .home, */
+.documents,
+.releases,
+.tutorials,
+.addons,
+.sign-up,
+.getinvolved,
+.usecases {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  color: rgb(51, 51, 51);
+  font-size: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 60px;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  color: rgb(51, 51, 51);
+  text-align: center;
+  /* padding: 20px 300px 20px 300px;*/
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 1.5rem;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.a {
+  /* background-image: url(/static/media/img-1.cd1d1c97.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.documents,
+.releases,
+.tutorials,
+.addons,
+.sign-up,
+.getinvolved,
+.usecases {
+  color: #000;
+  font-size: 30px;
+}
+
+.buttonn {
+  border: 0px;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 30px;
+  overflow: hidden;
+  padding: 13px 52px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 150ms ease-out 0s;
+  transform: translate3d(0px, 0px, 0px);
+  will-change: transform;
+  vertical-align: top;
+  white-space: nowrap;
+  user-select: none;
+  opacity: 1;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  background: rgb(30, 167, 253);
+  color: rgb(255, 255, 255);
+}
+
+.buttonn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonn:hover span {
+  padding-right: 15px;
+}
+
+.buttonn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.buttonm {
+  border: 0px;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 13px 52px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all 150ms ease-out 0s;
+  transform: translate3d(0px, 0px, 0px);
+  will-change: transform;
+  vertical-align: top;
+  white-space: nowrap;
+  user-select: none;
+  opacity: 1;
+  margin-left: 10px;
+  margin-top: 30px;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: rgb(30 167 253) 0px 0px 0px 1px inset;
+  color: rgb(30, 167, 253);
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
