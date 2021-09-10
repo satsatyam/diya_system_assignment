@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
-import VideoContainer from "../videoContainer";
+import SocialWrapper from "../SocialWrapper";
+import VideoContainer from "../VideoContainer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         </button>
       </div>
       <VideoContainer />
+      <SocialWrapper />
     </>
   );
 }

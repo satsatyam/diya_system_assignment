@@ -1,0 +1,61 @@
+@media (min-width: 1200px)
+{
+    .bWYMFU {
+        margin: 0px 11.1111%;
+    }
+}
+@media (min-width: 600px)
+{
+    .bWYMFU {
+        margin: 0px 5.55555%;
+    }
+}
+.bWYMFU {
+    padding: 3rem 20px;
+}
+
+.cbBygD {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (min-width: 799.8px)
+{
+    .cbBygD {
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+}
+
+
+.cbBygD .SocialProof__LogoWrapper-fci71t-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.dWstdF {
+    padding: 0px 20px;
+    display: inline-block;
+    text-align: center;
+}
+@media (min-width: 799.8px)
+{
+    .dOfkYs {
+        max-width: 92px;
+        max-height: 32px;
+    }
+}
+.dOfkYs {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    max-width: 80px;
+    max-height: 24px;
+    object-fit: contain;
+    opacity: 0.4;
+    filter: grayscale(100%);
+}

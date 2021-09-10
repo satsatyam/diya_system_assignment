@@ -1,5 +1,5 @@
 import React from 'react'
-import './videoContainer.css'
+import './VideoContainer.css'
 import HeroVedio from '../video/storybook-hero-video-optimized-lg.mp4'
 import LogoReact from '../assets/icon/logo-react.svg'
 import VueLogo from '../assets/icon/logo-vue.svg'
@@ -52,7 +52,7 @@ const videoContainer = () => {
           <span className="sc-hSdWYo enEkAE Hero__SecondarySubheading-sc-1c410mj-18 chNPPh">Made for</span>
 
           <div className="Hero__FrameworkList-sc-1c410mj-14 bErHEr">
-            {allIcon.map((item) => {
+            {allIcon?.map((item) => {
               return (
                 <div className="Hero__FrameworkItem-sc-1c410mj-13 ifSOTA" key={item.id}>
                   <a target="_blank" className="sc-kpOJdX kjRNKK Hero__FrameworkLink-sc-1c410mj-12 MHqKs primary" href={item?.link} rel="noreferrer"  >
@@ -107,12 +107,9 @@ const videoContainer = () => {
               </span>
             </a>
           </div>
-
-
         </div>
-
-      </section >
-    </div >
+      </section>
+    </div>
   )
 }
 
