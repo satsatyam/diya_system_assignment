@@ -1,3 +1,4 @@
+/* Video Part  */
 .kLLxhB {
     padding: 3rem 20px;
     position: relative;
@@ -60,4 +61,209 @@
 .gXgTXy {
     width: 100%;
     height: auto;
+}
+.fblSBC {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    transform: translate3d(-50%, -50%, 0px);
+    left: 26.5%;
+    top: 23.5%;
+}
+ .fblSBC::before {
+    height: 37.5%;
+    width: 37.5%;
+    background: rgb(255, 71, 133);
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0px);
+    transition: all 200ms ease-out 0s;
+    z-index: 1;
+}
+.fblSBC::before, .fblSBC::after {
+    border-radius: 1rem;
+    content: "";
+    display: block;
+    position: absolute;
+}
+.fblSBC::after {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 71, 133);
+    opacity: 0.2;
+    z-index: 0;
+}
+.cUXCXG {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    transform: translate3d(-50%, -50%, 0px);
+    left: 0px;
+    top: 42%;
+}
+.cUXCXG::before {
+    height: 37.5%;
+    width: 37.5%;
+    background: rgb(255, 71, 133);
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0px);
+    transition: all 200ms ease-out 0s;
+    z-index: 1;
+}
+.cUXCXG::after {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 71, 133);
+    opacity: 0.2;
+    z-index: 0;
+}
+.cUXCXG::before, .cUXCXG::after {
+    border-radius: 1rem;
+    content: "";
+    display: block;
+    position: absolute;
+}
+.cukEay {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    transform: translate3d(-50%, -50%, 0px);
+    left: 20.75%;
+    top: 71%;
+}
+.cukEay::before, .cukEay::after {
+    border-radius: 1rem;
+    content: "";
+    display: block;
+    position: absolute;
+}
+.cukEay::before {
+    height: 37.5%;
+    width: 37.5%;
+    background: rgb(255, 71, 133);
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0px);
+    transition: all 200ms ease-out 0s;
+    z-index: 1;
+}
+.cukEay::after {
+    height: 100%;
+    width: 100%;
+    background: rgb(255, 71, 133);
+    opacity: 0.2;
+    z-index: 0;
+}
+ /* Second part all LINK  */
+ .gdHMmb .Hero__Secondary-sc-1c410mj-20 {
+    flex: initial;
+}
+@media (min-width: 1200px)
+{
+    .guHmdB {
+        position: sticky;
+        top: 1rem;
+    }
+}
+
+ .gdHMmb .Hero__Secondary-sc-1c410mj-20 {
+    flex: initial;
+}
+.enEkAE {
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 13px;
+}
+.chNPPh {
+    font-size: 11px;
+    display: block;
+    color: rgb(153, 153, 153);
+    margin-bottom: 1rem;
+}
+.bErHEr {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+@media (min-width: 1200px)
+{
+    .bErHEr {
+        flex-direction: column;
+    }
+}
+
+.bErHEr .Hero__FrameworkItem-sc-1c410mj-13 {
+    padding-right: 10px;
+    width: 20%;
+    min-width: 130px;
+}
+@media (min-width: 1200px)
+{
+    .bErHEr .Hero__FrameworkItem-sc-1c410mj-13 {
+        width: auto;
+    }
+}
+
+.ifSOTA {
+    display: flex;
+    margin-bottom: 0.75rem;
+}
+.ifSOTA a {
+    overflow: hidden;
+}
+.MHqKs {
+    text-transform: capitalize;
+    display: inline-flex;
+    vertical-align: top;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1rem;
+    font-weight: 700;
+}
+.kjRNKK {
+    display: inline-block;
+    transition: transform 150ms ease-out 0s, color 150ms ease-out 0s;
+    text-decoration: none;
+    color: rgb(30, 167, 253);
+}
+.ifSOTA a > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.MHqKs img {
+    display: inline-block;
+    vertical-align: top;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 10px;
+}
+.erzNjr {
+    display: inline-block;
+    vertical-align: middle;
+    shape-rendering: inherit;
+    transform: translate3d(0px, 0px, 0px);
+}
+.kjRNKK svg {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    vertical-align: text-top;
+    position: relative;
+    bottom: -0.125em;
+    margin-right: 0.4em;
+}
+.gxmhng > svg:last-of-type {
+    height: 0.7em;
+    width: 0.7em;
+    margin-right: 0px;
+    margin-left: 0.25em;
+    bottom: auto;
+    vertical-align: inherit;
+}
+.jvzEsx {
+    fill: currentcolor;
 }
