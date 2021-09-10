@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import VideoContainer from "../videoContainer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <i class="fa fa-play" aria-hidden="true"></i> Watch video
         </button>
       </div>
+      <VideoContainer />
     </>
   );
 }
