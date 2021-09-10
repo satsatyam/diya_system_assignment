@@ -8,6 +8,9 @@ export function Button() {
       <button className="btn">
         <i class="fa fa-headphones" aria-hidden="true"></i> Star
       </button>
+      <button className="btn">
+        <i aria-hidden="true"></i> 64586
+      </button>
     </Link>
   );
 }
