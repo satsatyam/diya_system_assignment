@@ -51,8 +51,9 @@ const videoContainer = () => {
         {/* Second part all LINK */}
         <div className="Hero__Secondary-sc-1c410mj-20 guHmdB">
           <span className="sc-hSdWYo enEkAE Hero__SecondarySubheading-sc-1c410mj-18 chNPPh">Made for</span>
+
           <div className="Hero__FrameworkList-sc-1c410mj-14 bErHEr">
-          {allIcon.map((item) => {
+            {allIcon.map((item) => {
               return (
                 <div className="Hero__FrameworkItem-sc-1c410mj-13 ifSOTA" key={item.id}>
                   <a className="sc-kpOJdX kjRNKK Hero__FrameworkLink-sc-1c410mj-12 MHqKs primary" href="/docs/react">
@@ -69,8 +70,47 @@ const videoContainer = () => {
               )
             })}
           </div>
-        </div>
 
+          <span class="sc-hSdWYo enEkAE Hero__SecondarySubheading-sc-1c410mj-18 chNPPh">GitHub</span>
+          <div class="Hero__Stats-sc-1c410mj-17 jkFlnI">
+            <a href="https://github.com/storybookjs/storybook/releases" class="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK Hero__Stat-sc-1c410mj-15 fCdtiY">
+              <span class="sc-kGXeez kZpzLg"><div class="Cardinal__CardinalInner-sc-6wnl01-2 dtxUFu Hero__Stat-sc-1c410mj-15 fCdtiY">
+                <div class="Cardinal__Count-sc-6wnl01-0 hYwgQV">
+                  <span>v6.3</span></div>
+                <div class="Cardinal__Text-sc-6wnl01-1 eMGsVd">
+                  <span>Latest version</span>
+                </div>
+              </div>
+              </span>
+            </a>
+            <a href="https://www.npmjs.com/package/@storybook/react" class="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK Hero__NpmDownloadStat-sc-1c410mj-16 iXEvfz chromatic-ignore">
+              <span class="sc-kGXeez kZpzLg">
+                <div class="Cardinal__CardinalInner-sc-6wnl01-2 dtxUFu Hero__NpmDownloadStat-sc-1c410mj-16 iXEvfz chromatic-ignore">
+                  <div class="Cardinal__Count-sc-6wnl01-0 cIDBLi">
+                    <span>11.57m</span>
+                  </div>
+                  <div class="Cardinal__Text-sc-6wnl01-1 eMGsVd">
+                    <span>Installs per month</span>
+                  </div>
+                </div>
+              </span>
+            </a>
+            <a href="https://github.com/storybookjs/storybook/graphs/contributors" class="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK Hero__Stat-sc-1c410mj-15 fCdtiY">
+              <span class="sc-kGXeez kZpzLg">
+                <div class="Cardinal__CardinalInner-sc-6wnl01-2 dtxUFu Hero__Stat-sc-1c410mj-15 fCdtiY">
+                  <div class="Cardinal__Count-sc-6wnl01-0 hCboAk">
+                    <span>1290+</span>
+                  </div>
+                  <div class="Cardinal__Text-sc-6wnl01-1 eMGsVd">
+                    <span>Contributors</span>
+                  </div>
+                </div>
+              </span>
+            </a>
+          </div>
+
+
+        </div>
 
       </section >
     </div >
