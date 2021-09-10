@@ -14,20 +14,19 @@ import RiotLogo from '../assets/icon/logo-riot.svg'
 import PreactLogo from '../assets/icon/logo-preact.svg'
 import RaxLogo from '../assets/icon/logo-rax.png'
 
-
 const allIcon = [
-  { "id": 1, "icon": LogoReact, "title": "React" },
-  { "id": 2, "icon": VueLogo, "title": "Vue" },
-  { "id": 3, "icon": Angular, "title": "Angular" },
-  { "id": 4, "icon": WebComponent, "title": "Web Components" },
-  { "id": 5, "icon": EmberLogo, "title": "Ember" },
-  { "id": 6, "icon": HtmlLogo, "title": "HTML" },
-  { "id": 7, "icon": MithrilLogo, "title": "Mithril" },
-  { "id": 8, "icon": MarkoLogo, "title": "Marko" },
-  { "id": 9, "icon": SvelteLogo, "title": "Svelte" },
-  { "id": 10, "icon": RiotLogo, "title": "Riot" },
-  { "id": 11, "icon": PreactLogo, "title": "Preact" },
-  { "id": 12, "icon": RaxLogo, "title": "Rax" }
+  { "id": 1, "icon": LogoReact, "title": "React", "link": "https://storybook.js.org/docs/react/get-started/introduction" },
+  { "id": 2, "icon": VueLogo, "title": "Vue", "link": "https://storybook.js.org/docs/vue/get-started/introduction"},
+  { "id": 3, "icon": Angular, "title": "Angular", "link": "https://storybook.js.org/docs/angular/get-started/introduction" },
+  { "id": 4, "icon": WebComponent, "title": "Web Components", "link": "https://storybook.js.org/docs/web-components/get-started/introduction" },
+  { "id": 5, "icon": EmberLogo, "title": "Ember", "link": "https://storybook.js.org/docs/ember/get-started/introduction" },
+  { "id": 6, "icon": HtmlLogo, "title": "HTML", "link": "https://storybook.js.org/docs/html/get-started/introduction" },
+  { "id": 7, "icon": MithrilLogo, "title": "Mithril", "link": "https://storybook.js.org/docs/mithril/get-started/introduction" },
+  { "id": 8, "icon": MarkoLogo, "title": "Marko", "link": "https://storybook.js.org/docs/marko/get-started/introduction" },
+  { "id": 9, "icon": SvelteLogo, "title": "Svelte", "link": "https://storybook.js.org/docs/svelte/get-started/introduction" },
+  { "id": 10, "icon": RiotLogo, "title": "Riot", "link": "https://storybook.js.org/docs/riot/get-started/introduction" },
+  { "id": 11, "icon": PreactLogo, "title": "Preact", "link": "https://storybook.js.org/docs/preact/get-started/introduction" },
+  { "id": 12, "icon": RaxLogo, "title": "Rax", "link": "https://storybook.js.org/docs/rax/get-started/introduction" }
 ]
 
 const videoContainer = () => {
@@ -56,7 +55,7 @@ const videoContainer = () => {
             {allIcon.map((item) => {
               return (
                 <div className="Hero__FrameworkItem-sc-1c410mj-13 ifSOTA" key={item.id}>
-                  <a className="sc-kpOJdX kjRNKK Hero__FrameworkLink-sc-1c410mj-12 MHqKs primary" href="/docs/react">
+                  <a target="_blank" className="sc-kpOJdX kjRNKK Hero__FrameworkLink-sc-1c410mj-12 MHqKs primary" href={item?.link} rel="noreferrer"  >
                     <span class="sc-kGXeez gxmhng">
                       <img src={item?.icon} alt="react" />
                       <span>{item?.title}</span>
