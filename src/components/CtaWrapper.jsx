@@ -13,7 +13,7 @@ const CtaWrapper = () => {
                 </div>
                 <div className="CTA__Action-lj7wg-1 bpPNrX">
                     <a href="/docs/" className="sc-kgoBCf kVSTZj sc-kAzzGY KMMOk">
-                        <span className="sc-jzJRlG SQNia">Go to the docs</span>
+                    <  span className="sc-jzJRlG SQNia">Go to the docs</span>
                     </a>
                 </div>
             </div>

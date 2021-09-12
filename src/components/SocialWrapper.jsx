@@ -31,5 +31,4 @@ const socialWrapper = () => {
     </div>
   )
 }
-
 export default socialWrapper

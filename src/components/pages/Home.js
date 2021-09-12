@@ -35,6 +35,8 @@ export default function Home() {
       <BenefitList />
       <Testimonial />
       <IndexScreen />
+      {/* RE useable component */}
+      
 
       <CtaWrapper />
       <Footer />

@@ -11,11 +11,9 @@ const ValuePropsWrapper = () => {
       </div>
       <div className="ValueProp__Media-s27rv9-0 hySWSa">
         <div className="PlaceholderAspectRatio__Wrapper-gfrj8l-0 gAbpKH IndexScreen__Placeholder-sc-14a3yl6-2 iWcVxO">
-
           <video autoplay="" loop="" playsinline="" alt="Storybook build workflow video" className="Video__StyledVideo-sc-1d2xgwb-0 gXgTXy">
             <source src={WorkflowBuild} type="video/mp4" />
           </video>
-
         </div>
       </div>
     </div>

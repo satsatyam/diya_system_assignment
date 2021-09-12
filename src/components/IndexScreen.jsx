@@ -9,8 +9,6 @@ import TestAccessibility from '../assets/icon/test-accessibility.png'
 
 const IndexScreen = () => {
     return (
-
-
         <div className="IndexScreen__Contrast-sc-14a3yl6-0 kauxnU">
             <hr className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe" />
             <div orientation="right" className="ValueProp__Wrapper-s27rv9-4 eSBIDw">
@@ -68,8 +66,7 @@ const IndexScreen = () => {
                         </div>
                         <div className="BenefitItem__Desc-sir4bv-2 AkjTR">Check stories for WCAG and ARIA issues with the
                             <a className="sc-kpOJdX kjRNKK" href="/addons/@storybook/addon-a11y/">
-                                <span className="sc-kGXeez kZpzLg">A11y addon
-                                </span>
+                                <span className="sc-kGXeez kZpzLg">A11y addon</span>
                             </a>
                             .
                         </div>
@@ -103,11 +100,7 @@ const IndexScreen = () => {
                 </div>
             </div>
             <hr className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe" />
-
         </div>
-
-
     )
 }
-
 export default IndexScreen;

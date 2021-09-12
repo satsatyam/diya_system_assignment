@@ -4,7 +4,6 @@ import './Testimonial.css'
 const Testimonial = () => {
     return (
 
-
         <div class="Testimonial__Wrapper-sc-1qimxcb-10 dmoufd">
             <div class="Testimonial__HrWrapper-sc-1qimxcb-7 fiIKnk">
                 {/* <hr class="Testimonial__Hr-sc-1qimxcb-8 kxQTAR" /> */}
@@ -31,9 +30,6 @@ const Testimonial = () => {
                 </div>
             </div>
         </div>
-
-
     )
 }
-
 export default Testimonial;

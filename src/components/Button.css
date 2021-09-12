@@ -1,7 +1,6 @@
 :root {
   --primary: #1888ff;
 }
-
 .btn {
   padding: 1px 10px 1px 10px;
   border-radius: 4px;
@@ -12,13 +11,14 @@
   color: #413838;
   cursor: pointer;
   background-color: #eee;
-  min-width: 76px;
+  min-width: 65px;
+  display: inline;
+  float: left;
+  margin-right: 4px;
 }
-
 .buttonm .fa {
   margin-right: 10px;
 }
-
 .btn:hover {
   padding: 6px 18px;
   transition: all 0.3s ease-out;
@@ -28,4 +28,16 @@
   border: 2px solid var(--primary);
   transition: all 0.3s ease-out;
   background-color: #eee;
+}
+.sidebutton{
+  min-width:200px;
+}
+@media (min-width: 1024px)
+{
+  .sidebutton{
+    width: 25%;
+    float: left;
+    display: inline;
+    justify-content:right !important;
+  }
 }

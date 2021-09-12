@@ -39,8 +39,6 @@
     text-align: center;
     padding: 3rem 20px;
 }
-
-
 @media (min-width: 600px)
 {
 .cRXLgS .CTA__Text-lj7wg-0 {
@@ -48,7 +46,6 @@
     padding-right: 60px;
 }
 }
-
 .cRXLgS .CTA__Text-lj7wg-0 {
     flex: 0 1 100%;
 }
@@ -60,15 +57,12 @@
     margin-bottom: 0px;
 }
 }
-
-
 .WBFxE {
     font-weight: 800;
     font-size: 20px;
     line-height: 24px;
     margin-bottom: 1.25rem;
 }
-
 @media (min-width: 600px)
 {
 .WBFxE {
@@ -77,8 +71,6 @@
     margin-bottom: 0px;
 }
 }
-
-
 .WBFxE {
     font-weight: 800;
     font-size: 20px;
@@ -93,7 +85,6 @@
     text-align: left;
 }
 }
-
 .cRXLgS {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +102,6 @@
 .cRXLgS .CTA__Action-lj7wg-1 {
     flex: 0 0 100%;
 }
-
 .KMMOk {
     border: 0px;
     border-radius: 3em;

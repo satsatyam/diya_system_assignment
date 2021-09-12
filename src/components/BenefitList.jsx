@@ -8,9 +8,7 @@ import BuildAddons from '../assets/icon/build-addons.png'
 
 const BenefitList = () => {
     return (
-
         <div className="BenefitList__Layout-ingo5i-0 bpydmA">
-
             <div className="BenefitItem__Wrapper-sir4bv-5 kDKTFd">
                 <div className="BenefitItem__Image-sir4bv-0 kkyPFD">
                     <img src={BuildCanvas} alt="isolate" />
@@ -20,7 +18,6 @@ const BenefitList = () => {
                     <div className="BenefitItem__Desc-sir4bv-2 AkjTR">Implement components and pages without needing to fuss with data, APIs, or business logic.</div>
                 </div>
             </div>
-
             <div className="BenefitItem__Wrapper-sir4bv-5 kDKTFd">
                 <div className="BenefitItem__Image-sir4bv-0 kkyPFD">
                     <img src={BuildCases} alt="mock states" />
@@ -32,7 +29,6 @@ const BenefitList = () => {
                     </div>
                 </div>
             </div>
-
             <div className="BenefitItem__Wrapper-sir4bv-5 kDKTFd">
                 <div className="BenefitItem__Image-sir4bv-0 kkyPFD">
                     <img src={BuildSidebar} alt="save use cases" />
@@ -47,7 +43,6 @@ const BenefitList = () => {
                     </div>
                 </div>
             </div>
-
             <div className="BenefitItem__Wrapper-sir4bv-5 kDKTFd">
                 <div className="BenefitItem__Image-sir4bv-0 kkyPFD">
                     <img src={BuildAddons} alt="extend with addons" />
@@ -59,10 +54,7 @@ const BenefitList = () => {
                     </div>
                 </div>
             </div>
-
         </div>
-
     )
 }
-
 export default BenefitList;

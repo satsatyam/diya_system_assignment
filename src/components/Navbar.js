@@ -80,7 +80,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Community <i className="fas fa-caret-down" /><i class="fal fa-angle-down"></i>
+              Community <i class="fas fa-angle-down"></i>
             </Link>
             {dropdown && <Dropdown />}
           </li>
@@ -99,5 +99,4 @@ function Navbar() {
     </>
   );
 }
-
 export default Navbar;

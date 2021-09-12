@@ -1,5 +1,6 @@
 import React from 'react'
 import './VideoWrapper.css'
+
 import HeroVedio from '../video/storybook-hero-video-optimized-lg.mp4'
 import LogoReact from '../assets/icon/logo-react.svg'
 import VueLogo from '../assets/icon/logo-vue.svg'
@@ -46,7 +47,6 @@ const VideoWrapper = () => {
             <span role="button" trigger="hover" className="Hero__TooltipAddons-sc-1c410mj-11 cukEay" aria-controls="c0d0f28d-4157-4af4-b926-361cda83c8d1" tabindex="0"></span>
           </div>
         </div>
-
         {/* Second part all LINK */}
         <div className="Hero__Secondary-sc-1c410mj-20 guHmdB">
           <span className="sc-hSdWYo enEkAE Hero__SecondarySubheading-sc-1c410mj-18 chNPPh">Made for</span>
@@ -69,7 +69,6 @@ const VideoWrapper = () => {
               )
             })}
           </div>
-
           <span class="sc-hSdWYo enEkAE Hero__SecondarySubheading-sc-1c410mj-18 chNPPh">GitHub</span>
           <div class="Hero__Stats-sc-1c410mj-17 jkFlnI">
             <a href="https://github.com/storybookjs/storybook/releases" class="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK Hero__Stat-sc-1c410mj-15 fCdtiY">
@@ -112,5 +111,4 @@ const VideoWrapper = () => {
     </div>
   )
 }
-
 export default VideoWrapper

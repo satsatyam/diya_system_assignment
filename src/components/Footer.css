@@ -38,14 +38,12 @@
     /* align-items: start; */
     flex : start;
 }
-
 @media (min-width: 600px)
 {
 .bwYNrh img {
     width: 48px;
 }
 }
-
 .bwYNrh img {
     margin-right: 20px;
     display: block;
@@ -113,7 +111,6 @@
     border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 }
-
 .dwoydW:last-child {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -145,18 +142,15 @@
     max-width: 200px;
 }
 }
-
 .kHiiWE .Footer__Colophon-sc-1t257ty-13 {
     width: 100%;
     margin-bottom: 3rem;
     display: block;
 }
-
 .kZDFAA a {
     display: inline-block;
     vertical-align: top;
 }
-
 .hFPsBV {
     margin-bottom: 1rem;
     display: block;
@@ -188,7 +182,6 @@ body b, body em {
     margin-bottom: 2.25rem;
 }
 }
-
 .kHiiWE .Footer__Column-sc-1t257ty-14 {
     width: 50%;
     margin-bottom: 2.25rem;
@@ -199,7 +192,6 @@ body b, body em {
     margin-bottom: 1rem;
     color: rgb(153, 153, 153);
 }
-
 .enEkAE {
     letter-spacing: 0.35em;
     text-transform: uppercase;
@@ -226,7 +218,6 @@ body b, body em {
     margin-bottom: 3rem;
 }
 }
-
 .kHiiWE .Footer__Subscribe-sc-1t257ty-15 {
     width: 100%;
     margin-bottom: 3rem;
@@ -315,7 +306,6 @@ body b, body em {
     padding: 10px 15px;
     box-shadow: rgb(0 0 0 / 10%) 0px 0px 0px 1px inset;
 }
-
 .dlwiFX {
     appearance: none;
     border: none;
@@ -325,16 +315,13 @@ body b, body em {
     width: 100%;
     margin: 0px;
 }
-
 .xXWRY .MailingListSubscribeForm__Send-sc-1ej56f5-1 {
     box-shadow: rgb(0 0 0 / 10%) 0px 2px 5px 0px;
     border-radius: 0px 4px 4px 0px;
 }
-
 .jMMoSG {
     flex: inherit;
 }
-
 .KMMOk {
     border: 0px;
     border-radius: 3em;
@@ -364,26 +351,22 @@ body b, body em {
     transition: transform 700ms cubic-bezier(0.175, 0.885, 0.335, 1.05) 0s;
     opacity: 1;
 }
-
 .SQNia {
     display: inline-block;
     vertical-align: top;
 }
-
 @media (min-width: 1200px)
 {
 .ehPPUQ {
     margin: 0px 11.1111%;
 }
 }
-
 @media (min-width: 600px)
 {
 .ehPPUQ {
     margin: 0px 5.55555%;
 }
 }
-
 .ehPPUQ {
     padding: 0px 20px;
 }
@@ -411,20 +394,17 @@ body b, body em {
     margin: 0px 5.55555%;
 }
 }
-
 .hPRaun {
     padding: 2rem 20px 1rem;
     display: flex;
     flex-wrap: wrap;
 }
-
 @media (min-width: 600px)
 {
 .hPRaun .Footer__Service-sc-1t257ty-20 {
     flex: 1 1 0%;
 }
 }
-
 .hPRaun .Footer__Service-sc-1t257ty-20 {
     flex: 0 0 50%;
 }
