@@ -9,6 +9,8 @@ import IndexScreen from "../IndexScreen";
 import CtaWrapper from "../CtaWrapper";
 import Footer from "../Footer";
 import VideoWrapper from "../VideoWrapper";
+import WorkflowBuild from '../../video/storybook-workflow-build-optimized-lg.mp4'
+import WorkflowShare from '../../video/storybook-workflow-share-optimized-lg.mp4'
 
 export default function Home() {
   return (
@@ -31,12 +33,20 @@ export default function Home() {
       <div className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe">
         <hr />
       </div>
-      <ValuePropsWrapper />
+      <ValuePropsWrapper
+        title="Develop durable UIs"
+        description="Storybook provides a sandbox to build UIs in isolation so you can develop hard-to-reach states and edge cases."
+        videoSrc={WorkflowBuild}
+      />
       <BenefitList />
       <Testimonial />
       <IndexScreen />
       {/* RE useable component */}
-      
+      <ValuePropsWrapper
+        title="Document UI to share with your team"
+        description="Stories show how UIs actually work not just how they're supposed to work. That makes gathering feedback and reproductions easy."
+        videoSrc={WorkflowShare}
+      />
 
       <CtaWrapper />
       <Footer />
