@@ -2,13 +2,13 @@ import React from "react";
 import "../../App.css";
 
 import SocialWrapper from "../SocialWrapper";
-import VideoContainer from "../VideoContainer";
 import ValuePropsWrapper from "../ValuePropsWrapper";
 import BenefitList from "../BenefitList";
 import Testimonial from "../Testimonial";
 import IndexScreen from "../IndexScreen";
 import CtaWrapper from "../CtaWrapper";
 import Footer from "../Footer";
+import VideoWrapper from "../VideoWrapper";
 
 export default function Home() {
   return (
@@ -26,7 +26,7 @@ export default function Home() {
           <i class="fa fa-play" aria-hidden="true"></i> Watch video
         </button>
       </div>
-      <VideoContainer />
+      <VideoWrapper />
       <SocialWrapper />
       <div className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe">
         <hr />

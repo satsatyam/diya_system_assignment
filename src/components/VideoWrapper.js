@@ -1,5 +1,5 @@
 import React from 'react'
-import './VideoContainer.css'
+import './VideoWrapper.css'
 import HeroVedio from '../video/storybook-hero-video-optimized-lg.mp4'
 import LogoReact from '../assets/icon/logo-react.svg'
 import VueLogo from '../assets/icon/logo-vue.svg'
@@ -29,7 +29,7 @@ const allIcon = [
   { "id": 12, "icon": RaxLogo, "title": "Rax", "link": "https://storybook.js.org/docs/rax/get-started/introduction" }
 ]
 
-const VideoContainer = () => {
+const VideoWrapper = () => {
   return (
     <div className="Hero__Wrapper-sc-1c410mj-22 kLLxhB">
       <section className="Hero__Content-sc-1c410mj-21 gdHMmb">
@@ -113,4 +113,4 @@ const VideoContainer = () => {
   )
 }
 
-export default VideoContainer
+export default VideoWrapper
