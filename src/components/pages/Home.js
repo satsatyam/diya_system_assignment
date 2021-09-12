@@ -31,14 +31,13 @@ export default function Home() {
       <div className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe">
         <hr />
       </div>
-      <ValuePropsWrapper /><br />
-      <BenefitList /><br />
-      <Testimonial /><br />
-      <IndexScreen /><br />
+      <ValuePropsWrapper />
+      <BenefitList />
+      <Testimonial />
+      <IndexScreen />
 
-      <CtaWrapper /><br />
+      <CtaWrapper />
       <Footer />
-
     </>
   );
 }
