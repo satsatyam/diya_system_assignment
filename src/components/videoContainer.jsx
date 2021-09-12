@@ -29,7 +29,7 @@ const allIcon = [
   { "id": 12, "icon": RaxLogo, "title": "Rax", "link": "https://storybook.js.org/docs/rax/get-started/introduction" }
 ]
 
-const videoContainer = () => {
+const VideoContainer = () => {
   return (
     <div className="Hero__Wrapper-sc-1c410mj-22 kLLxhB">
       <section className="Hero__Content-sc-1c410mj-21 gdHMmb">
@@ -113,4 +113,4 @@ const videoContainer = () => {
   )
 }
 
-export default videoContainer
+export default VideoContainer

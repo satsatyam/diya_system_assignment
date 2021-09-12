@@ -41,7 +41,7 @@ const BenefitList = () => {
                     <div className="BenefitItem__Title-sir4bv-1 hVOefc">Document use cases as stories
                     </div>
                     <div className="BenefitItem__Desc-sir4bv-2 AkjTR">Save use cases as stories in
-                        <a href="https://storybook.js.org/basics/writing-stories/" target="_blank" className="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK">
+                        <a href="https://storybook.js.org/basics/writing-stories/" target="_blank" rel="noreferrer" className="sc-dxgOiQ hTjMfW sc-kpOJdX kjRNKK">
                             <span className="sc-kGXeez kZpzLg">plain JavaScript</span></a>
                         to revisit during development, testing, and QA.
                     </div>
