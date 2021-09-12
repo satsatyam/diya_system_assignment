@@ -1,7 +1,14 @@
 import React from "react";
 import "../../App.css";
+
 import SocialWrapper from "../SocialWrapper";
 import VideoContainer from "../VideoContainer";
+import ValuePropsWrapper from "../ValuePropsWrapper";
+import BenefitList from "../BenefitList";
+import Testimonial from "../Testimonial";
+import IndexScreen from "../IndexScreen";
+import CtaWrapper from "../CtaWrapper";
+import Footer from "../Footer";
 
 export default function Home() {
   return (
@@ -21,6 +28,17 @@ export default function Home() {
       </div>
       <VideoContainer />
       <SocialWrapper />
+      <div className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe">
+        <hr />
+      </div>
+      <ValuePropsWrapper /><br />
+      <BenefitList /><br />
+      <Testimonial /><br />
+      <IndexScreen /><br />
+
+      <CtaWrapper /><br />
+      <Footer />
+
     </>
   );
 }

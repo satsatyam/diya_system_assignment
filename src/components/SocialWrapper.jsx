@@ -18,17 +18,17 @@ const allIcon = [
 
 const socialWrapper = () => {
   return (
-      <div className="SocialProof__Wrapper-fci71t-5 bWYMFU">
-        <div className="SocialProof__Logos-fci71t-3 cbBygD">
-          {allIcon?.map((item) => {
-            return (
-              <div title={item.title} className="SocialProof__LogoWrapper-fci71t-2 dWstdF" key={item?.id}>
-                <img src={item?.icon} alt={item?.title} className="SocialProof__Logo-fci71t-1 dOfkYs" />
-              </div>
-            )
-          })}
-        </div>
+    <div className="SocialProof__Wrapper-fci71t-5 bWYMFU">
+      <div className="SocialProof__Logos-fci71t-3 cbBygD">
+        {allIcon?.map((item) => {
+          return (
+            <div title={item.title} className="SocialProof__LogoWrapper-fci71t-2 dWstdF" key={item?.id}>
+              <img src={item?.icon} alt={item?.title} className="SocialProof__Logo-fci71t-1 dOfkYs" />
+            </div>
+          )
+        })}
       </div>
+    </div>
   )
 }
 

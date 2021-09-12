@@ -1,0 +1,105 @@
+@media (min-width: 600px)
+{
+.dyIjuO {
+    text-align: left;
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+}
+}
+@media (min-width: 600px)
+{
+.dyIjuO {
+    margin: 0px 5.55555%;
+}
+}
+.dyIjuO {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+@media (min-width: 600px)
+{
+.dyIjuO .ValueProp__Meta-s27rv9-3 {
+    padding-right: 10%;
+}
+}
+@media (min-width: 600px)
+{
+.dyIjuO .ValueProp__Meta-s27rv9-3 {
+    order: 1;
+    flex: 1 1 0%;
+}
+}
+@media (min-width: 600px)
+{
+.cojJWW {
+    margin-bottom: 0px;
+}
+}
+.cojJWW {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+@media (min-width: 600px)
+{
+.eXsXDL {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 0.75rem;
+}
+}
+.eXsXDL {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    margin-bottom: 0.5rem;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+}
+@media (min-width: 600px)
+{
+.dmgqgS {
+    font-size: 20px;
+    line-height: 32px;
+}
+}
+.dmgqgS {
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(68, 68, 68);
+}
+@media (min-width: 600px)
+{
+.dyIjuO .ValueProp__Media-s27rv9-0 {
+    order: 2;
+    flex: 0 0 auto;
+    display: block;
+    width: 50%;
+}
+}
+.hySWSa {
+    width: 100%;
+    position: relative;
+}
+element.style {
+    padding-bottom: calc(100% * 0.75);
+}
+.gAbpKH {
+    position: relative;
+    width: 100%;
+    height: 0px;
+}
+.gXgTXy {
+    width: 100%;
+    height: auto;
+}
