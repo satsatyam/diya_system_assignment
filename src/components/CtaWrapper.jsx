@@ -9,10 +9,10 @@ const CtaWrapper = () => {
             </div>
             <div className="CTA__Inner-lj7wg-4 cRXLgS">
                 <div className="CTA__Text-lj7wg-0 WBFxE">
-                    <span>Storybook is quick to install and it’s easy to get started.</span>
+                    <span>Storybook is quick to install and it’s easy to<br /> get started.</span>
                 </div>
                 <div className="CTA__Action-lj7wg-1 bpPNrX">
-                    <a href="/docs/" className="sc-kgoBCf kVSTZj sc-kAzzGY KMMOk">
+                    <a href="https://storybook.js.org/docs/react/get-started/introduction" className="sc-kgoBCf kVSTZj sc-kAzzGY KMMOk">
                     <  span className="sc-jzJRlG SQNia">Go to the docs</span>
                     </a>
                 </div>

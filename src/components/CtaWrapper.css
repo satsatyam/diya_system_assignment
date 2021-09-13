@@ -79,6 +79,7 @@
 .cRXLgS .CTA__Action-lj7wg-1 {
     flex: 0 0 100%;
 }
+
 .KMMOk {
     border: 0px;
     border-radius: 3em;
@@ -94,9 +95,10 @@
     will-change: transform;
     vertical-align: top;
     white-space: nowrap;
+    -webkit-user-select: none;
     user-select: none;
     opacity: 1;
-    margin: 0px;
+    margin-left: 600px;
     font-size: 14px;
     font-weight: 800;
     line-height: 1;

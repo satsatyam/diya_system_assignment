@@ -22,7 +22,7 @@ const BenefitList = ({
         <div className="BenefitItem__Image-sir4bv-0 kkyPFD">
           <img src={imgSrc1} alt="isolate" />
         </div>
-        <div class="BenefitItem__Meta-sir4bv-3 bjcIcp">
+        <div className="BenefitItem__Meta-sir4bv-3 bjcIcp">
           <div className="BenefitItem__Title-sir4bv-1 hVOefc">{title1}</div>
           <div className="BenefitItem__Desc-sir4bv-2 AkjTR">{desc1}</div>
         </div>
