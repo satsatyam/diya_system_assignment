@@ -26,8 +26,10 @@
 {
     .cbBygD {
         flex-wrap: wrap;
-        -webkit-box-pack: justify;
         justify-content: space-between;
+        flex-direction: row;
+        padding-left: 70px;
+        padding-right: 108px;
     }
 }
 .cbBygD .SocialProof__LogoWrapper-fci71t-2 {

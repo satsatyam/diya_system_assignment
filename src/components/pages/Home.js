@@ -31,11 +31,11 @@ export default function Home() {
           Storybook is an open source tool for building UI components and pages in isolation. It streamlines UI development, testing, and
           documentation.
         </p>
+        </div>
+        <div className="b">
         <button className="buttonn">Go to the docs</button>
-        <button className="buttonm">
-          <i class="fa fa-play" aria-hidden="true"></i> Watch video
-        </button>
-      </div>
+        <button className="buttonm"><i class="fa fa-play" aria-hidden="true"></i> Watch video</button>
+        </div>
       <VideoWrapper />
       <SocialWrapper />
       <div className="IndexScreen__Separator-sc-14a3yl6-1 jkmdPe">
