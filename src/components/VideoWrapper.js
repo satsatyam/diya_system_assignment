@@ -56,11 +56,11 @@ const VideoWrapper = () => {
               return (
                 <div className="Hero__FrameworkItem-sc-1c410mj-13 ifSOTA" key={item.id}>
                   <a target="_blank" className="sc-kpOJdX kjRNKK Hero__FrameworkLink-sc-1c410mj-12 MHqKs primary" href={item?.link} rel="noreferrer"  >
-                    <span class="sc-kGXeez gxmhng">
+                    <span className="sc-kGXeez gxmhng">
                       <img src={item?.icon} alt="react" />
                       <span>{item?.title}</span>
                       <svg viewBox="0 0 1024 1024" width="20px" height="20px" className="sc-bdVaJa erzNjr">
-                        <path d="M768.072 514.022c0 10.236-3.904 20.47-11.712 28.282l-344.098 344.156c-15.62 15.624-40.946 15.624-56.568 0.006-15.622-15.622-15.624-40.948-0.006-56.568l315.82-315.876-315.868-315.922c-15.618-15.624-15.618-40.952 0.004-56.568 15.624-15.62 40.95-15.618 56.57 0.006l344.144 344.204c7.81 7.81 11.714 18.044 11.714 28.28z" class="sc-bwzfXH jvzEsx">
+                        <path d="M768.072 514.022c0 10.236-3.904 20.47-11.712 28.282l-344.098 344.156c-15.62 15.624-40.946 15.624-56.568 0.006-15.622-15.622-15.624-40.948-0.006-56.568l315.82-315.876-315.868-315.922c-15.618-15.624-15.618-40.952 0.004-56.568 15.624-15.62 40.95-15.618 56.57 0.006l344.144 344.204c7.81 7.81 11.714 18.044 11.714 28.28z" className="sc-bwzfXH jvzEsx">
                         </path>
                       </svg>
                     </span>

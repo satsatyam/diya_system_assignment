@@ -34,7 +34,7 @@ export default function Home() {
         </div>
         <div className="b">
         <button className="buttonn">Go to the docs</button>
-        <button className="buttonm"><i class="fa fa-play" aria-hidden="true"></i> Watch video</button>
+        <button className="buttonm"><i className="fa fa-play" aria-hidden="true"></i> Watch video</button>
         </div>
       <VideoWrapper />
       <SocialWrapper />

@@ -39,59 +39,23 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link
-              to="/documents"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Docs
-            </Link>
+            <Link to="/documents" className="nav-links" onClick={closeMobileMenu}>Docs</Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/tutorials"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Tutorials
-            </Link>
+            <Link to="/tutorials" className="nav-links" onClick={closeMobileMenu}>Tutorials</Link>
           </li>
           <li className="nav-item">
-            <Link
-              to="/releases"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Releases
-            </Link>
+            <Link to="/releases" className="nav-links" onClick={closeMobileMenu}>Releases</Link>
           </li>
           <li className="nav-item">
-            <Link to="/addons" className="nav-links" onClick={closeMobileMenu}>
-              Addons
-            </Link>
+            <Link to="/addons" className="nav-links" onClick={closeMobileMenu}>Addons</Link>
           </li>
-          <li
-            className="nav-item"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            <Link
-              to="/community"
-              className="nav-links"
-              onClick={closeMobileMenu}
-            >
-              Community <i class="fas fa-angle-down"></i>
-            </Link>
+          <li className="nav-item" onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+            <Link to="/community" className="nav-links" onClick={closeMobileMenu}> Community <i class="fas fa-angle-down"></i></Link>
             {dropdown && <Dropdown />}
           </li>
           <li>
-            <Link
-              to="/star"
-              className="nav-links-mobile"
-              onClick={closeMobileMenu}
-            >
-              Star
-            </Link>
+            <Link to="/star" className="nav-links-mobile" onClick={closeMobileMenu}>Star</Link>
           </li>
         </ul>
         <Button />

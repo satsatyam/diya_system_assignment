@@ -83,7 +83,7 @@ const IndexScreen = () => {
                     </div>
                     <div className="Testimonial__Attribution-sc-1qimxcb-6 grQCNZ">
                         <div className="Testimonial__Author-sc-1qimxcb-4 VzdbB">
-                            <div src="https://avatars2.githubusercontent.com/u/1247751?s=100&amp;v=4" type="user" class="sc-htpNat iLMdzb">
+                            <div src="https://avatars2.githubusercontent.com/u/1247751?s=100&amp;v=4" type="user" className="sc-htpNat iLMdzb">
                                 <img src="https://avatars2.githubusercontent.com/u/1247751?s=100&amp;v=4" alt="Adam Neary" />
                             </div>
                             <div className="Testimonial__Meta-sc-1qimxcb-3 ipCLLb">
