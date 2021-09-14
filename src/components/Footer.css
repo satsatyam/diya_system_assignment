@@ -205,6 +205,10 @@ body b, body em {
     display: block;
     margin-bottom: 0.75rem;
 }
+.eLgvxA:hover{
+    transform: scale(1.1);
+}
+
 .dzNwrs svg {
     display: inline-block;
     height: 1em;
@@ -323,7 +327,10 @@ body b, body em {
     box-shadow: rgb(0 0 0 / 10%) 0px 2px 5px 0px;
     border-radius: 0px 4px 4px 0px;
 }
-.jMMoSG {
+
+.jMMoSG:hover{
+
+    transform: scale(1.1);
     flex: inherit;
 }
 .KMMOk {
