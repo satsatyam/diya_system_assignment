@@ -56,9 +56,12 @@
 .drXeha {
     font-weight: 800;
     margin-bottom: 0.25rem;
+    font-size: 20px;
 }
 .dxApek {
     margin-bottom: 0.25rem;
+    font-size: 18px;
+    font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .iovVVP {
     margin-right: 15px;
@@ -431,4 +434,15 @@ body b, body em {
 }
 .hPRaun .Footer__CircleCI-sc-1t257ty-19 {
     opacity: 0.75;
+}
+.gxEWxo:hover{
+    transform: scale(1.1);
+}
+
+.brpTeg:hover{
+    transform: scale(1.1);
+}
+
+.dFsves:hover{
+    transform: scale(1.1);
 }
