@@ -3,6 +3,7 @@
 }
 .jkmdPe {
     margin: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 600px)
 {
@@ -158,6 +159,7 @@
 .hySWSa {
     width: 100%;
     position: relative;
+
 }
 @media (min-width: 600px)
 {
@@ -508,4 +510,7 @@ body * {
     display: inline-block;
     width: auto;
     max-height: 24px;
+}
+.iWcVxO{
+    padding-bottom: calc(100% * 0.75);
 }

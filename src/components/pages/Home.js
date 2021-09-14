@@ -72,7 +72,6 @@ export default function Home() {
         img2="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBpZD0iTGF5ZXJfMSIgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIHg9IjAiIHk9IjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMwMCAzMDAiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMwMCAzMDAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnIGlkPSJhdG9tIj48Zz48Zz48Y2lyY2xlIGN4PSIxNDkuNSIgY3k9IjE0OS42IiByPSIxNDEuNiIgZmlsbD0iI0Y2RjRERSIgc3Ryb2tlPSIjMDEwMTAxIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS13aWR0aD0iMTUiLz48Y2lyY2xlIGN4PSIxNDkuNSIgY3k9IjE0OS42IiByPSI4MS42IiBmaWxsPSIjQkQ2OTI4Ii8+PC9nPjxwYXRoIGZpbGw9IiNCRDY5MjgiIGQ9Ik0yOTUuNyw2MS44YzAsMTkuMi0xNS41LDM0LjYtMzQuNiwzNC42UzIyNi41LDgxLDIyNi41LDYxLjhzMTUuNS0zNC42LDM0LjYtMzQuNiBDMjgwLjEsMjcuMiwyOTUuNyw0Mi42LDI5NS43LDYxLjh6Ii8+PC9nPjwvZz48L3N2Zz4="
       />
       <IndexScreen />
-
       <ValuePropsWrapper
         title="Document UI to share with your team"
         description="Stories show how UIs actually work not just how they're supposed to work. That makes gathering feedback and reproductions easy."

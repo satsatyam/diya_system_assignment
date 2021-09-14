@@ -6,9 +6,9 @@ const Testimonial = ({quote,name,title,img1,img2}) => {
 
     <div className="Testimonial__Wrapper-sc-1qimxcb-10 dmoufd">
 
-      {/* <div className="Testimonial__HrWrapper-sc-1qimxcb-7 fiIKnk">
+      <div className="Testimonial__HrWrapper-sc-1qimxcb-7 fiIKnk">
         <hr className="Testimonial__Hr-sc-1qimxcb-8 kxQTAR" />
-      </div> */}
+      </div>
       
       <div className="Testimonial__Inner-sc-1qimxcb-9 iENQhC">
         <div className="Testimonial__Quote-sc-1qimxcb-0 hOGBAo">

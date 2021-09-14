@@ -103,4 +103,5 @@ const IndexScreen = () => {
         </div>
     )
 }
+
 export default IndexScreen;
